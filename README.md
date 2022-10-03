@@ -27,7 +27,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page  
 
 ### Screenshot  
-[coming soon]  
+![Screen Shot 2022-10-03 at 3 45 58 PM](https://user-images.githubusercontent.com/113798073/193665419-134c313d-68b0-4409-ad5d-1ebf8792df25.png)
+
 
 ### Link
 Deployed application: https://lcfhines.github.io/password-generator/ 
