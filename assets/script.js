@@ -42,6 +42,15 @@ if (includeUpperCase) includedCharacters = includedCharacters + upperCase;
 var includeSpecialChar = confirm("Would you like your password to include special characters?");
 if (includeSpecialChar) includedCharacters = includedCharacters + specialChar;
 
+
+// put selected characters together, randomly select characters from that group of characters for each character in the length
+
+for (var i = 0; i < passwordLength; i ++){
+  var randomIndex = Math.floor(Math.random() * includedCharacters.length)
+  var randomCharacter = includedCharacters[randomIndex];
+  password = password + randomCharacter;
+}
+
 return password
 }
 
